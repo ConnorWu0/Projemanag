@@ -23,7 +23,7 @@ You can change order of cards by dragging them.
 ![Drag a card](https://github.com/ConnorWuProjects/Projemanag/blob/master/screenshots/Drag%20a%20card.png)  
 In cards, you can change card name, select a color and a date and add members.    
 ![In a card](https://github.com/ConnorWuProjects/Projemanag/blob/master/screenshots/In%20a%20card.png)    
-Press overflow menu in a board page, you can add members by email.    
+Press overflow menu in a board page, you can see the list of members in this board. Press the plus icon, you can add member by email.      
 ![Add member](https://github.com/ConnorWuProjects/Projemanag/blob/master/screenshots/Add%20member.png)    
 
 
