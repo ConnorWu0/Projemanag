@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/ic_cancel.xml" value="0.1296875" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/ic_nav_sign_out.xml" value="0.16018518518518518" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/ic_nav_user.xml" value="0.16018518518518518" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/ic_white_color_back_24dp.xml" value="0.2037037037037037" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/nav_header_main_background.xml" value="0.14629629629629629" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/shape_button_rounded.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/shape_dialog_rounded.xml" value="0.2" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/drawable/white_border_shape_button_rounded.xml" value="0.18518518518518517" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout-v23/activity_create_board.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout-v23/activity_intro.xml" value="0.17391304347826086" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_base.xml" value="0.15443840579710144" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_card_details.xml" value="0.4" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_create_board.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_main.xml" value="0.17391304347826086" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_members.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_my_profile.xml" value="0.21557971014492755" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_sign_up.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_splash.xml" value="0.17391304347826086" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/activity_task_list.xml" value="0.11354166666666667" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/app_bar_main.xml" value="0.29296875" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/dialog_list.xml" value="0.20606884057971014" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/dialog_progress.xml" value="0.4" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/dialog_search_member.xml" value="0.2115036231884058" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/item_board.xml" value="0.11927083333333334" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/item_card.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/item_card_selected_member.xml" value="0.19519927536231885" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/item_label_color.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/item_member.xml" value="0.1" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/item_task.xml" value="0.264" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/main_content.xml" value="0.176" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/layout/nav_header_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/menu/menu_add_member.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/menu/menu_delete_card.xml" value="0.13020833333333334" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/menu/menu_members.xml" value="0.23148148148148148" />
+        <entry key="..\:/Android Apps/The Complete Android 12/Projemanag/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2222222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

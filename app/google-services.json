@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569564684412",
+    "project_id": "projemanag-bf380",
+    "storage_bucket": "projemanag-bf380.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569564684412:android:2ba87a3e01bebda28f69f9",
+        "android_client_info": {
+          "package_name": "com.example.projemanag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569564684412-4itm1cs8m17h0ni47ia3g9gkjm7p7r5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuEjZAK47pt8XXFgTYnFk7MtRJP14Ap6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569564684412-4itm1cs8m17h0ni47ia3g9gkjm7p7r5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
