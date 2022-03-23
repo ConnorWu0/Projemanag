@@ -25,5 +25,7 @@ In cards, you can change card name, select a color and a date and add members.
 ![In a card](https://github.com/ConnorWuProjects/Projemanag/blob/master/screenshots/In%20a%20card.png)    
 Press the overflow menu in a board page, you can see the list of members in this board. Press the plus icon, you can add member by email.      
 ![Add member](https://github.com/ConnorWuProjects/Projemanag/blob/master/screenshots/Add%20member.png)    
+If someone adds you in a board, you'll get a notification.  
+![A notification](https://github.com/ConnorWuProjects/Projemanag/blob/master/screenshots/A%20notification.png)  
 
 
