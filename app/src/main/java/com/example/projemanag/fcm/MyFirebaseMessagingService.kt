@@ -8,6 +8,7 @@ import android.content.Intent
 import android.media.RingtoneManager
 import android.os.Build
 import android.util.Log
+import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import com.example.projemanag.R
 import com.example.projemanag.activities.MainActivity
@@ -19,6 +20,7 @@ import com.google.firebase.messaging.RemoteMessage
 
 class MyFirebaseMessagingService : FirebaseMessagingService(){
 
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         super.onMessageReceived(remoteMessage)
 
@@ -42,6 +44,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService(){
     private fun sendRegistrationToServer(token: String?){}
 
 
+    @RequiresApi(Build.VERSION_CODES.M)
     private fun sendNotification(title: String, message: String){
         val intent = if (FirestoreClass().getCurrentUserId().isNotEmpty()){
             Intent(this,MainActivity::class.java)
@@ -50,7 +53,8 @@ class MyFirebaseMessagingService : FirebaseMessagingService(){
         }
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or
         Intent.FLAG_ACTIVITY_CLEAR_TASK)
-        val pendingIntent = PendingIntent.getActivity(this,0,intent,PendingIntent.FLAG_ONE_SHOT)
+        val pendingIntent = PendingIntent.getActivity(this,0,intent,
+            PendingIntent.FLAG_ONE_SHOT or  PendingIntent.FLAG_IMMUTABLE)
         val channelId = this.getString(R.string.default_notification_channel_id)
         val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(this, channelId).setSmallIcon(
