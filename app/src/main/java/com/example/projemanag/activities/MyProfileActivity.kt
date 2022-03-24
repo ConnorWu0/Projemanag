@@ -10,6 +10,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
 import android.provider.Settings
+import android.text.TextUtils
 import android.util.Log
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
@@ -90,17 +91,39 @@ class MyProfileActivity : BaseActivity() {
 
     private fun updateUserProfileData() {
         val userHashMap = HashMap<String, Any>()
-        if (mProfileImageURL.isNotEmpty() && mProfileImageURL != mUserDetails.image) {
-            userHashMap[Constants.IMAGE] = mProfileImageURL     }
-        if (binding?.etName?.text.toString() != mUserDetails.name) {
-            userHashMap[Constants.NAME] = binding?.etName?.text.toString()     }
-        if (binding?.etMobile?.text.toString() != mUserDetails.mobile.toString()) {
-            if (binding?.etMobile?.text.toString() == "") {
-                userHashMap[Constants.MOBILE] = 0L
-            } else { userHashMap[Constants.MOBILE] = binding?.etMobile?.text.toString().toLong()
+        if (validateForm(binding?.etName?.text.toString(),binding?.etMobile?.text.toString())){
+            if (mProfileImageURL.isNotEmpty() && mProfileImageURL != mUserDetails.image) {
+                userHashMap[Constants.IMAGE] = mProfileImageURL     }
+            if (binding?.etName?.text.toString() != mUserDetails.name) {
+                userHashMap[Constants.NAME] = binding?.etName?.text.toString()     }
+            if (binding?.etMobile?.text.toString() != mUserDetails.mobile.toString()) {
+                if (binding?.etMobile?.text.toString() == "") {
+                    userHashMap[Constants.MOBILE] = 0L
+                } else {
+                    userHashMap[Constants.MOBILE] = binding?.etMobile?.text.toString().toLong()
+                }
             }
+            FirestoreClass().updateUserProfileData(this, userHashMap)
         }
-        FirestoreClass().updateUserProfileData(this, userHashMap)
+
+    }
+
+    private fun validateForm(name: String,phoneNumber:String):Boolean{
+        return when{
+            TextUtils.isEmpty(name) -> {
+                showErrorSnackBar("Please your name")
+                hideProgressDialog()
+                false
+            }
+            TextUtils.isEmpty(phoneNumber) -> {
+                showErrorSnackBar("Please enter your phone number")
+                hideProgressDialog()
+                false
+            }else -> {
+                true
+            }
+
+        }
     }
 
     private fun uploadUserImage(){

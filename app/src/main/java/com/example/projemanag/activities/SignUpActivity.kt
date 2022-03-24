@@ -36,7 +36,7 @@ class SignUpActivity : BaseActivity() {
     fun registeredSuccess(){
         Toast.makeText(
             this,
-            "you have successfully registered",
+            "You have successfully registered",
             Toast.LENGTH_LONG
         ).show()
         hideProgressDialog()
