@@ -175,7 +175,8 @@ class MembersActivity : BaseActivity() {
                 // Here you can pass the message as per requirement as here we have added some text and appended the name of the Board Admin.
                 dataObject.put(
                     Constants.FCM_KEY_MESSAGE,
-                    "You have been assigned to the new board by ${mAssignedMembersList[0].name}"
+                    "You have been assigned to the new board"
+                            //"by ${mAssignedMembersList[0].name}"
                 )
 
                 // Here add the data object and the user's token in the jsonRequest object.
